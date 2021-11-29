@@ -287,7 +287,6 @@ variable "capacity_provider_strategies" {
 variable "service_registries" {
   type = list(object({
     registry_arn   = string
-    port           = number
     container_name = string
     container_port = number
   }))
